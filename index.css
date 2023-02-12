@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.title{
+    text-align: center;
+}
+
+.recipe{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 30px;
+    gap: 150px;
+    height: 350px;
+    width: 250px;
+}
+
+.chicken{
+    width: 350px;
+    margin-left: 100PX;
+    height: 200px;
+    background: #787676;
+    margin: 5px;
+
+}
+
+.chicken p{
+    margin: 10px;
+}
+
+.chicken h2{
+    position: relative;
+    text-align: right;
+    margin: 15px;
+}
+
+.beef{
+    width: 350px;
+    height: 200px;
+    margin: 2px;
+    background: #787676;
+
+}
+
+.beef p{
+    margin: 10px;
+}
+
+.beef h2{
+    position: relative;
+    text-align: right;
+    margin: 15px;
+
+}
+.sushi{
+    width: 350px;
+    height: 200px;
+    margin: 2px;
+    background: #787676;
+
+}
+
+.sushi h2{
+    position: relative;
+    text-align: right;
+    margin: 15px;
+}
+.sushi p{
+    margin: 10px;
+}
+
+
+
+
